@@ -9,6 +9,7 @@
     "lib",
     "index.js",
     "ruleset.js",
+    "LICENSE",
     "README.md"
   ],
   "scripts": {
@@ -21,6 +22,7 @@
     "zillow"
   ],
   "author": "Zillow",
+  "license": "MIT",
   "repository": "zillow/zlocator",
   "dependencies": {
     "bluebird": "^2.2.2",
