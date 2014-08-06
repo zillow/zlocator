@@ -1,0 +1,34 @@
+{
+  "name": "zlocator",
+  "version": "0.0.0",
+  "description": "Zillow script driver for yahoo/locator-based YUI builds.",
+  "bin": "bin/zlocator",
+  "main": "index.js",
+  "files": [
+    "bin",
+    "lib",
+    "index.js",
+    "ruleset.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "locator",
+    "plugin",
+    "yahoo",
+    "zillow"
+  ],
+  "author": "Zillow",
+  "repository": "zillow/zlocator",
+  "dependencies": {
+    "bluebird": "^2.2.2",
+    "char-spinner": "^1.0.1",
+    "inherits": "^2.0.1",
+    "locator": "^0.3.10",
+    "locator-handlebars": "^0.3.2",
+    "locator-yui": "^0.1.2",
+    "nopt": "^3.0.1"
+  }
+}
