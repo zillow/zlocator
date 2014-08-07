@@ -1,4 +1,4 @@
-zlocator
+zlocator [![Build Status](https://travis-ci.org/zillow/zlocator.svg?branch=master)](https://travis-ci.org/zillow/zlocator)
 ========
 
 A script driver for locator-based YUI builds.
