@@ -15,7 +15,8 @@
     "README.md"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "pretest": "jshint .",
+    "test": "istanbul test --print both _mocha"
   },
   "keywords": [
     "locator",
@@ -38,7 +39,14 @@
     "locator-yui": "^0.1.2",
     "nopt": "^3.0.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "istanbul": "^0.3.0",
+    "jshint": "^2.5.2",
+    "mocha": "^1.21.4",
+    "sinon": "^1.10.3",
+    "sinon-chai": "^2.5.0"
+  },
   "bugs": {
     "url": "https://github.com/zillow/zlocator/issues"
   },
