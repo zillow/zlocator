@@ -1,6 +1,6 @@
 {
   "name": "zlocator",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Zillow script driver for yahoo/locator-based YUI builds.",
   "bin": {
     "zlocator": "bin/zlocator"
@@ -35,8 +35,8 @@
     "char-spinner": "^1.0.1",
     "inherits": "^2.0.1",
     "locator": "^0.3.10",
-    "locator-handlebars": "^0.3.2",
-    "locator-yui": "^0.1.2",
+    "locator-handlebars": "https://github.com/zillow/zlocator-handlebars/tarball/master",
+    "locator-yui": "https://github.com/zillow/zlocator-yui/tarball/master",
     "nopt": "^3.0.1"
   },
   "devDependencies": {
