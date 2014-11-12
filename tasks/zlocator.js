@@ -11,7 +11,7 @@ module.exports = function(grunt) {
             })
             .lastly(function () {
                 var duration = (Date.now() - started) / 1000;
-                grunt.log.writeln('Finished in %s second%s.', duration.toFixed(2), (duration != 1 ? 's' : ''));
+                grunt.log.writeln('Finished in %s second%s.', duration.toFixed(2), (duration !== 1 ? 's' : ''));
             });
     });
 };
