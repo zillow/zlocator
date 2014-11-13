@@ -1,6 +1,6 @@
 {
   "name": "zlocator",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Zillow script driver for yahoo/locator-based YUI builds.",
   "bin": {
     "zlocator": "bin/zlocator"
