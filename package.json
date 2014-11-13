@@ -12,7 +12,8 @@
     "index.js",
     "ruleset.js",
     "LICENSE",
-    "README.md"
+    "README.md",
+    "tasks"
   ],
   "scripts": {
     "pretest": "jshint .",
