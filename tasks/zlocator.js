@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     grunt.registerTask('zlocator', 'Building source files with Locator, LocatorYUI, LocatorHandlebars', function () {
         var started = Date.now();
         var opts = grunt.config(['zlocator']);
-        require('../bin/zlocator')(opts, this.async())
+        require('../lib/zlocator')(opts, this.async())
             .caught(function (ex) {
                 grunt.fatal(ex.message);
                 grunt.fatal(ex.stack);
