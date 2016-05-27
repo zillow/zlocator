@@ -36,7 +36,7 @@
     "char-spinner": "^1.0.1",
     "inherits": "^2.0.1",
     "locator": "https://github.com/zillow/locator/tarball/zillow",
-    "locator-handlebars": "https://github.com/zillow/locator-handlebars/tarball/master",
+    "locator-handlebars": "https://github.com/zillow/locator-handlebars/tarball/feature/js-mustache",
     "locator-yui": "https://github.com/zillow/locator-yui/tarball/master",
     "nopt": "^3.0.1",
     "yui": "3.18.1"
